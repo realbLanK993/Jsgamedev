@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#playground{
+    width: 400px;
+    height: 300px;
+    background-color: #43823D;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 100px;
+    padding-right:100px;
+    border: 20px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.paddle{
+    height: 100px;
+    width: 40px;
+    background-color:#FF5655 ;
+    border-radius: 20px;
+    position: absolute;
+}
+#paddleB{
+    background-color: aliceblue;
+    z-index: 1;
+}
+#ball{
+    height: 20px;
+    width: 20px;
+    background-color:burlywood;
+    position: absolute;
+    border-radius: 50%;
+}
